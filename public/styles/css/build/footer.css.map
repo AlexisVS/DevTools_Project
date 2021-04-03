@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,gBAAgB,ECMQ,OAAO;CDGhC;;AAXD,AAGE,OAHK,CAGL,GAAG,CAAC;EACF,KAAK,ECKI,OAAO;EDJhB,WAAW,EAAE,uBAAuB;EACpC,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,MAAM;EACf,cAAc,EAAE,KAAK;EACrB,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "../../sass/layout/footer.scss",
+        "../../sass/base/_colors.scss"
+    ],
+    "names": [],
+    "file": "footer.css"
+}

@@ -1,0 +1,13 @@
+@import "../base/colors";
+#footer {
+  width: 100vw;
+  background-color: $color-background-header;
+  div {
+    color: $color-font;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    padding: 13px 0;
+    letter-spacing: 1.3px;
+    margin: auto;
+  }
+}

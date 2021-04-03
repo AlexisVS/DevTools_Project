@@ -1,0 +1,33 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #bdbdbd;
+  color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  padding: 7px 15px;
+  -webkit-transition: all 900ms;
+  transition: all 900ms;
+  border-radius: 0;
+  text-shadow: 0;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #39ddaf;
+  border-color: #39ddaf;
+  -webkit-transition: all 475ms;
+  transition: all 475ms;
+  border-radius: 25px;
+  text-shadow: 0 0 1.5px #39ddaf;
+}
+
+@media only screen and (min-width: 425px) {
+  .btn {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+/*# sourceMappingURL=button.css.map */

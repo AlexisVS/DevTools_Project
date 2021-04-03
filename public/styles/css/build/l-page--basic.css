@@ -1,0 +1,8 @@
+.l-page--basic {
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  display: -ms-grid;
+  display: grid;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=l-page--basic.css.map */

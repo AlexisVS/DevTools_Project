@@ -1,0 +1,18 @@
+@import "./_colors.scss";
+a,
+a:-webkit-any-link {
+  text-decoration: none;
+}
+body {
+  grid-template-rows: auto 1fr auto;
+  display: grid;
+  min-height: 100vh;
+  background-color: $color-background-default;
+}
+button:focus {
+  outline: none;
+}
+
+main {
+  display: flex;
+}

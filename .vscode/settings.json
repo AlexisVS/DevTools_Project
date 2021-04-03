@@ -1,0 +1,18 @@
+{
+    "cSpell.ignoreWords": [
+        "categorie",
+        "devdocs",
+        "focusring",
+        "header",
+        "icon",
+        "menu",
+        "moz"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/public/styles/css/build/",
+        }
+    ],
+}

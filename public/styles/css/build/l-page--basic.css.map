@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,kBAAkB,EAAE,aAAa;EACjC,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,KAAK;CAClB",
+    "sources": [
+        "../../sass/layout/l-page--basic.scss"
+    ],
+    "names": [],
+    "file": "l-page--basic.css"
+}

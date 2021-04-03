@@ -1,0 +1,14 @@
+#footer {
+  width: 100vw;
+  background-color: #0f0f0f;
+}
+
+#footer div {
+  color: #bdbdbd;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  padding: 13px 0;
+  letter-spacing: 1.3px;
+  margin: auto;
+}
+/*# sourceMappingURL=footer.css.map */

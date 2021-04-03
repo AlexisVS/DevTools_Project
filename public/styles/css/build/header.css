@@ -1,0 +1,79 @@
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 65px;
+  width: 100vw;
+  background-color: #0f0f0f;
+}
+
+#header a {
+  margin-left: 15px;
+}
+
+#header a img {
+  vertical-align: middle;
+}
+
+#headerMenuIcon {
+  background-color: transparent;
+  border: none;
+  margin-right: 15px;
+}
+
+#headerMenuIcon img {
+  vertical-align: middle;
+}
+
+#headerMenu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
+
+#headerMenu button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 30px 0 0;
+}
+
+#headerMenu a {
+  width: 100vw;
+  text-align: center;
+  font-family: "Work Sans ExtraBold";
+  text-decoration: none;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+#headerMenu a:hover, #headerMenu a:focus {
+  color: #dfdfdf;
+}
+/*# sourceMappingURL=header.css.map */

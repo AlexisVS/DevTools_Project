@@ -1,0 +1,389 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Black"), local("Montserrat-Black"),
+    url("./Fonts/Montserrat-Black.woff2") format("woff2"),
+    url("./Fonts/Montserrat-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Black Italic"), local("Montserrat-BlackItalic"),
+    url("./Fonts/Montserrat-BlackItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("./Fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("./Fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraLight Italic"),
+    local("Montserrat-ExtraLightItalic"),
+    url("./Fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Italic"), local("Montserrat-Italic"),
+    url("./Fonts/Montserrat-Italic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"),
+    url("./Fonts/Montserrat-ExtraLight.woff2") format("woff2"),
+    url("./Fonts/Montserrat-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"),
+    url("./Fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+    url("./Fonts/Montserrat-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraBold Italic"), local("Montserrat-ExtraBoldItalic"),
+    url("./Fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Bold Italic"), local("Montserrat-BoldItalic"),
+    url("./Fonts/Montserrat-BoldItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Light"), local("Montserrat-Light"),
+    url("./Fonts/Montserrat-Light.woff2") format("woff2"),
+    url("./Fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Medium"), local("Montserrat-Medium"),
+    url("./Fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("./Fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat SemiBold Italic"), local("Montserrat-SemiBoldItalic"),
+    url("./Fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("./Fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("./Fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Thin"), local("Montserrat-Thin"),
+    url("./Fonts/Montserrat-Thin.woff2") format("woff2"),
+    url("./Fonts/Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Light Italic"), local("Montserrat-LightItalic"),
+    url("./Fonts/Montserrat-LightItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Thin Italic"), local("Montserrat-ThinItalic"),
+    url("./Fonts/Montserrat-ThinItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
+    url("./Fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("./Fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Medium Italic"), local("Montserrat-MediumItalic"),
+    url("./Fonts/Montserrat-MediumItalic.woff2") format("woff2"),
+    url("./Fonts/Montserrat-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraLight Italic"), local("WorkSans-ExtraLightItalic"),
+    url("./Fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Italic"), local("WorkSans-Italic"),
+    url("./Fonts/WorkSans-Italic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Bold Italic"), local("WorkSans-BoldItalic"),
+    url("./Fonts/WorkSans-BoldItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraBold Italic"), local("WorkSans-ExtraBoldItalic"),
+    url("./Fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Black"), local("WorkSans-Black"),
+    url("./Fonts/WorkSans-Black.woff2") format("woff2"),
+    url("./Fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Light"), local("WorkSans-Light"),
+    url("./Fonts/WorkSans-Light.woff2") format("woff2"),
+    url("./Fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Black Italic"), local("WorkSans-BlackItalic"),
+    url("./Fonts/WorkSans-BlackItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraBold"), local("WorkSans-ExtraBold"),
+    url("./Fonts/WorkSans-ExtraBold.woff2") format("woff2"),
+    url("./Fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Bold"), local("WorkSans-Bold"),
+    url("./Fonts/WorkSans-Bold.woff2") format("woff2"),
+    url("./Fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Light Italic"), local("WorkSans-LightItalic"),
+    url("./Fonts/WorkSans-LightItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Medium"), local("WorkSans-Medium"),
+    url("./Fonts/WorkSans-Medium.woff2") format("woff2"),
+    url("./Fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Thin Italic"), local("WorkSans-ThinItalic"),
+    url("./Fonts/WorkSans-ThinItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraLight"), local("WorkSans-ExtraLight"),
+    url("./Fonts/WorkSans-ExtraLight.woff2") format("woff2"),
+    url("./Fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Thin"), local("WorkSans-Thin"),
+    url("./Fonts/WorkSans-Thin.woff2") format("woff2"),
+    url("./Fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans SemiBold"), local("WorkSans-SemiBold"),
+    url("./Fonts/WorkSans-SemiBold.woff2") format("woff2"),
+    url("./Fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Regular"), local("WorkSans-Regular"),
+    url("./Fonts/WorkSans-Regular.woff2") format("woff2"),
+    url("./Fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans SemiBold Italic"), local("WorkSans-SemiBoldItalic"),
+    url("./Fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Medium Italic"), local("WorkSans-MediumItalic"),
+    url("./Fonts/WorkSans-MediumItalic.woff2") format("woff2"),
+    url("./Fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: $color-font;
+}
+h1 {
+  margin-top: 3rem;
+  line-height: 3.5rem;
+}
+
+h1,
+h2 {
+  font-family: "Work Sans", Open Sans;
+}
+p,
+span,
+div {
+  font-family: "Montserrat Medium", Open Sans;
+  line-height: 1.5rem;
+}
+button,
+.btn {
+  font-family: "Montserrat", "Work Sans Medium", Open Sans;
+  letter-spacing: 1.5px;
+  font-size: 1.21rem;
+}

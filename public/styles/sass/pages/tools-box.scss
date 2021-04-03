@@ -1,0 +1,96 @@
+@import "../main.scss";
+@import "../layout/flex-grid.scss";
+@import "../components/tools-card.scss";
+
+// ?    _______________________________________________
+// ?  /************************************************\
+// ? |*****************  RANGE MOI CA  *****************|
+// ? |**************************************************|
+body {
+  overflow-x: hidden;
+}
+.section-toolsCard {
+  margin: 0 10px;
+}
+.toolsCard {
+  width: 365px;
+  height: min-content;
+  background-color: #fff;
+  border: 2px solid $color-font;
+  border-radius: 9px;
+  margin: 10px 0;
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-img {
+      margin: 10px 0 0 13px;
+    }
+    a {
+      text-decoration: none;
+      color: $color-font--dark;
+      &:visited {
+        color: $color-font--dark;
+      }
+      &:hover {
+        color: $color-font;
+      }
+    }
+    button {
+      position: relative;
+      width: min-content;
+      height: min-content;
+      top: -15px;
+      left: 3px;
+      background: none;
+      border: none;
+    }
+  }
+  &-body {
+    margin: 20px 13px 10px 13px;
+  }
+  &-footer {
+    margin: 10px 13px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-categories {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      justify-content: stretch;
+      color: #fff;
+      padding: 2px 5px;
+      border: 2px solid $color-font--dark;
+      border-radius: 25px;
+      font-size: 0.875rem;
+      margin: 2px 3px;
+      background: $color-font--dark;
+      font-family: "Montserrat semiBold";
+      transition: color 350ms, background 350ms;
+      &:hover {
+        color: $color-font--dark;
+        background-color: transparent;
+      }
+    }
+  }
+  @media only screen and (min-width: 425px) {
+    & {
+      width: auto;
+    }
+  }
+  @media only screen and (min-width: 840px) {
+    & {
+      min-width: 365px;
+      max-width: 45vw;
+    }
+  }
+  @media only screen and (min-width: 1232px) {
+    & {
+      max-width: 30vw;
+    }
+  }
+}
+
+// ?  \************************************************/
+// ?    ----------------------------------------------

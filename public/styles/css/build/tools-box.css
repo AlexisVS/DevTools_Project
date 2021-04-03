@@ -1,0 +1,820 @@
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: none;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Black"), local("Montserrat-Black"), url("./Fonts/Montserrat-Black.woff2") format("woff2"), url("./Fonts/Montserrat-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Black Italic"), local("Montserrat-BlackItalic"), url("./Fonts/Montserrat-BlackItalic.woff2") format("woff2"), url("./Fonts/Montserrat-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("./Fonts/Montserrat-Bold.woff2") format("woff2"), url("./Fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraLight Italic"), local("Montserrat-ExtraLightItalic"), url("./Fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"), url("./Fonts/Montserrat-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Italic"), local("Montserrat-Italic"), url("./Fonts/Montserrat-Italic.woff2") format("woff2"), url("./Fonts/Montserrat-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"), url("./Fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("./Fonts/Montserrat-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"), url("./Fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("./Fonts/Montserrat-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat ExtraBold Italic"), local("Montserrat-ExtraBoldItalic"), url("./Fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"), url("./Fonts/Montserrat-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Bold Italic"), local("Montserrat-BoldItalic"), url("./Fonts/Montserrat-BoldItalic.woff2") format("woff2"), url("./Fonts/Montserrat-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Light"), local("Montserrat-Light"), url("./Fonts/Montserrat-Light.woff2") format("woff2"), url("./Fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Medium"), local("Montserrat-Medium"), url("./Fonts/Montserrat-Medium.woff2") format("woff2"), url("./Fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat SemiBold Italic"), local("Montserrat-SemiBoldItalic"), url("./Fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"), url("./Fonts/Montserrat-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("./Fonts/Montserrat-Regular.woff2") format("woff2"), url("./Fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Thin"), local("Montserrat-Thin"), url("./Fonts/Montserrat-Thin.woff2") format("woff2"), url("./Fonts/Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Light Italic"), local("Montserrat-LightItalic"), url("./Fonts/Montserrat-LightItalic.woff2") format("woff2"), url("./Fonts/Montserrat-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Thin Italic"), local("Montserrat-ThinItalic"), url("./Fonts/Montserrat-ThinItalic.woff2") format("woff2"), url("./Fonts/Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("./Fonts/Montserrat-SemiBold.woff2") format("woff2"), url("./Fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Medium Italic"), local("Montserrat-MediumItalic"), url("./Fonts/Montserrat-MediumItalic.woff2") format("woff2"), url("./Fonts/Montserrat-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraLight Italic"), local("WorkSans-ExtraLightItalic"), url("./Fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("./Fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Italic"), local("WorkSans-Italic"), url("./Fonts/WorkSans-Italic.woff2") format("woff2"), url("./Fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Bold Italic"), local("WorkSans-BoldItalic"), url("./Fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("./Fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraBold Italic"), local("WorkSans-ExtraBoldItalic"), url("./Fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("./Fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Black"), local("WorkSans-Black"), url("./Fonts/WorkSans-Black.woff2") format("woff2"), url("./Fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Light"), local("WorkSans-Light"), url("./Fonts/WorkSans-Light.woff2") format("woff2"), url("./Fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Black Italic"), local("WorkSans-BlackItalic"), url("./Fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("./Fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraBold"), local("WorkSans-ExtraBold"), url("./Fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("./Fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Bold"), local("WorkSans-Bold"), url("./Fonts/WorkSans-Bold.woff2") format("woff2"), url("./Fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Light Italic"), local("WorkSans-LightItalic"), url("./Fonts/WorkSans-LightItalic.woff2") format("woff2"), url("./Fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Medium"), local("WorkSans-Medium"), url("./Fonts/WorkSans-Medium.woff2") format("woff2"), url("./Fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Thin Italic"), local("WorkSans-ThinItalic"), url("./Fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("./Fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans ExtraLight"), local("WorkSans-ExtraLight"), url("./Fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("./Fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Thin"), local("WorkSans-Thin"), url("./Fonts/WorkSans-Thin.woff2") format("woff2"), url("./Fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans SemiBold"), local("WorkSans-SemiBold"), url("./Fonts/WorkSans-SemiBold.woff2") format("woff2"), url("./Fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Regular"), local("WorkSans-Regular"), url("./Fonts/WorkSans-Regular.woff2") format("woff2"), url("./Fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans SemiBold Italic"), local("WorkSans-SemiBoldItalic"), url("./Fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("./Fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans Medium Italic"), local("WorkSans-MediumItalic"), url("./Fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("./Fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #bdbdbd;
+}
+
+h1 {
+  margin-top: 3rem;
+  line-height: 3.5rem;
+}
+
+h1,
+h2 {
+  font-family: "Work Sans", Open Sans;
+}
+
+p,
+span,
+div {
+  font-family: "Montserrat Medium", Open Sans;
+  line-height: 1.5rem;
+}
+
+button,
+.btn {
+  font-family: "Montserrat", "Work Sans Medium", Open Sans;
+  letter-spacing: 1.5px;
+  font-size: 1.21rem;
+}
+
+a,
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+body {
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  display: -ms-grid;
+  display: grid;
+  min-height: 100vh;
+  background-color: #1f1f1f;
+}
+
+button:focus {
+  outline: none;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 65px;
+  width: 100vw;
+  background-color: #0f0f0f;
+}
+
+#header a {
+  margin-left: 15px;
+}
+
+#header a img {
+  vertical-align: middle;
+}
+
+#headerMenuIcon {
+  background-color: transparent;
+  border: none;
+  margin-right: 15px;
+}
+
+#headerMenuIcon img {
+  vertical-align: middle;
+}
+
+#headerMenu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
+
+#headerMenu button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 30px 0 0;
+}
+
+#headerMenu a {
+  width: 100vw;
+  text-align: center;
+  font-family: "Work Sans ExtraBold";
+  text-decoration: none;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+#headerMenu a:hover, #headerMenu a:focus {
+  color: #dfdfdf;
+}
+
+#footer {
+  width: 100vw;
+  background-color: #0f0f0f;
+}
+
+#footer div {
+  color: #bdbdbd;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  padding: 13px 0;
+  letter-spacing: 1.3px;
+  margin: auto;
+}
+
+.is-showed--flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.section-toolsCard {
+  margin: 0 10px;
+}
+
+.toolsCard {
+  width: 365px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background-color: #fff;
+  border: 2px solid #bdbdbd;
+  border-radius: 9px;
+  margin: 10px 0;
+}
+
+.toolsCard-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toolsCard-header-img {
+  margin: 10px 0 0 13px;
+}
+
+.toolsCard-header a {
+  text-decoration: none;
+  color: #868686;
+}
+
+.toolsCard-header a:visited {
+  color: #868686;
+}
+
+.toolsCard-header a:hover {
+  color: #bdbdbd;
+}
+
+.toolsCard-header button {
+  position: relative;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  top: -15px;
+  left: 3px;
+  background: none;
+  border: none;
+}
+
+.toolsCard-body {
+  margin: 20px 13px 10px 13px;
+}
+
+.toolsCard-footer {
+  margin: 10px 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.toolsCard-footer-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  color: #fff;
+  padding: 2px 5px;
+  border: 2px solid #868686;
+  border-radius: 25px;
+  font-size: 0.875rem;
+  margin: 2px 3px;
+  background: #868686;
+  font-family: "Montserrat semiBold";
+  -webkit-transition: color 350ms, background 350ms;
+  transition: color 350ms, background 350ms;
+}
+
+.toolsCard-footer-categories:hover {
+  color: #868686;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 425px) {
+  .toolsCard {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .toolsCard {
+    min-width: 365px;
+    max-width: 45vw;
+  }
+}
+
+@media only screen and (min-width: 1232px) {
+  .toolsCard {
+    max-width: 30vw;
+  }
+}
+/*# sourceMappingURL=tools-box.css.map */

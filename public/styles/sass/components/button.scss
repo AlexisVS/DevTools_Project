@@ -1,0 +1,29 @@
+@import "../base/colors";
+.btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: $color-font;
+  color: $color-background-default;
+  border: 1px solid $color-background-default;
+  padding: 7px 15px;
+  transition: all 900ms;
+  border-radius: 0;
+  text-shadow: 0;
+  &:hover {
+    background-color: transparent;
+    color: $color-primary;
+    border-color: $color-primary;
+    transition: all 475ms;
+    border-radius: 25px;
+    text-shadow: 0 0 1.5px $color-primary;
+  }
+  @media only screen and (min-width: 425px) {
+    // ! ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ le truc flinguer "&"
+    & {
+      // ! ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+      max-width: max-content;
+    }
+  }
+}

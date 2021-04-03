@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,OAAO;EACtB,WAAW,EAAE,UAAU;EACvB,eAAe,EAAE,YAAY;CAC9B",
+    "sources": [
+        "../../sass/layout/flex-grid.scss"
+    ],
+    "names": [],
+    "file": "flex-grid.css"
+}
